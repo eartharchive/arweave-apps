@@ -94,7 +94,7 @@ server(S) ->
 		  NewS = do_generate_index(S),
 		  server(NewS);
 	  clear_to_index ->
-		  NewS = S#state{to_index = []}.
+		  NewS = S#state{to_index = []},
 		  server(NewS)
     end.
 
