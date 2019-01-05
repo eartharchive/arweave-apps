@@ -1,4 +1,4 @@
--module(app_queue_ea_tiles).
+-module(app_ea_tiles_archiver).
 
 -export([add/2, start/1, start/2, start/3,
 	 start_archiving/3, stop/1, print_state/1, print_index/1, generate_index/1]).
